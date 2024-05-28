@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/static/css/main.0e425784.css",
+    "main.js": "/static/js/main.0554399e.js",
+    "static/js/453.86f97112.chunk.js": "/static/js/453.86f97112.chunk.js",
+    "static/media/medusa.png": "/static/media/medusa.fdbb727ef0e47839ff3b.png",
+    "static/media/prof.jpg": "/static/media/prof.ba7b1a7472c10f68b96b.jpg",
+    "static/media/CopyfxAI.jpeg": "/static/media/CopyfxAI.784f585377ebf9d76090.jpeg",
+    "static/media/AIwallet.jpeg": "/static/media/AIwallet.d13ea16267b4cc44e42e.jpeg",
+    "static/media/result2.jpeg": "/static/media/result2.4840785ea4fd24b259b5.jpeg",
+    "static/media/result1.jpeg": "/static/media/result1.e72048e15ad9dc86cfef.jpeg",
+    "static/media/dev.webp": "/static/media/dev.8997a8ef191eb86c0622.webp",
+    "static/media/icon.jpeg": "/static/media/icon.bafbf6525634e32c9bdc.jpeg",
+    "static/media/s.jpeg": "/static/media/s.a9f97a0be124fe59088a.jpeg",
+    "static/media/graph.jpeg": "/static/media/graph.f93b1497ddd559cb59a9.jpeg",
+    "static/media/metal_backg.jpg": "/static/media/metal_backg.22637161e21d308e24f1.jpg",
+    "static/media/kworks-logo.png": "/static/media/kworks-logo.5dc59140cd9674f334fa.png",
+    "static/media/black_metal.jpg": "/static/media/black_metal.1fd2994f3e2fdaa95ac7.jpg",
+    "static/media/top-arrow-icon.jpg": "/static/media/top-arrow-icon.3ba2063303e9987506c9.jpg",
+    "static/media/x.svg": "/static/media/x.3d4e1f99f4b5df67d607d9194be24a80.svg",
+    "index.html": "/index.html",
+    "main.0e425784.css.map": "/static/css/main.0e425784.css.map",
+    "main.0554399e.js.map": "/static/js/main.0554399e.js.map",
+    "453.86f97112.chunk.js.map": "/static/js/453.86f97112.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0e425784.css",
+    "static/js/main.0554399e.js"
+  ]
+}
