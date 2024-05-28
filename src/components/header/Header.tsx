@@ -40,15 +40,15 @@ export const Header = (): JSX.Element => {
       <>
         <div className="header">
             <div className="header__menu">   
-             <Link className="header__menu__api" to={'/api'}>API</Link>
-             <Link className="header__menu__invest" to={'/invest'}>Invest</Link>
-             <Link className="header__menu__dev" to={'/dev'}>Dev</Link>   
-            </div>   
+             <Link className="header__menu__api" to={'/team'}>OUR TEAM</Link>
+             <Link className="header__menu__invest" to={'/invest'}>INVESTMENT</Link>
+             <Link className="header__menu__dev" to={'/dev'}>CONTACT US</Link>   
+            </div>
             <div>
              <Link className="header__home" to={'/'}>Home</Link>
             </div>
 
-            {userIsLogged === UserStatus.authenticated ? (
+            {/* {userIsLogged === UserStatus.authenticated ? (
             <div className="header__profile" onClick={() => setShowModal(true)}>
              Profile
             </div>
@@ -56,7 +56,7 @@ export const Header = (): JSX.Element => {
             <div>
              <Link className="header__login" to={'/login'} onClick={() => handleAuth(UserStatus.authenticated)}>Login</Link>
             </div>
-            )}  
+            )}   */}
         </div>
 
         {showModal && (

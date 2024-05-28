@@ -4,10 +4,8 @@
     flex-direction: row;
     background-color: rgb(0, 0, 0);
     height: 66px;
-    padding: 0 50px;
     align-items: center;
     border-top: solid 3px yellow;
-    box-shadow: 0px 0px 5px 5px rgba($color: black , $alpha: 0.2);
     color: white;
     &__copyright-p{
         &__span{
@@ -43,19 +41,21 @@
 
 @media (max-width:700px){
     .footer {
+        border-top: solid 2px yellow;
         &__copyright-p{
-            font-size: 14px;
-            margin-right: 20px;
+            margin-left: 20px;
+            font-size: 10px;
+            margin-right: 40px;
             &__span{
-                font-size: 14px;
+                font-size: 10px;
             }
         }
         &__link{
-            font-size: 14px;
+            font-size: 10px;
 
             &__img{
-                width: 34px;
-                height: 34px;
+                width: 23px;
+                height: 23px;
             }
         }
     }

@@ -1,7 +1,7 @@
 import React from "react";
 import './body.scss';
 import { Route , Routes } from "react-router-dom";
-import {API} from './api/API';
+import {Team} from './team/Team';
 import {Invest} from './invest/Invest';
 import {Dev} from './dev/Dev';
 import {Home} from './home/Home';
@@ -13,7 +13,7 @@ export const Body = (): JSX.Element => {
         <div className="body">
                 <div className="body_main">
                     <Routes>
-                        <Route path='/api' element= {<API/>}/>
+                        <Route path='/team' element= {<Team/>}/>
                         <Route path='/invest' element= {<Invest/>}/>
                         <Route path='/dev' element= {<Dev/>}/>
                         <Route path='/' element= {<Home/>}/>

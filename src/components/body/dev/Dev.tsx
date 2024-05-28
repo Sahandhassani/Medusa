@@ -5,7 +5,7 @@ export const Dev = (): JSX.Element => {
     return(
         <div className="dev">
             <div className="dev__coming">
-                 Dev page: COMING SOON . . .
+                 COMING SOON . . .
             </div>
         </div>
     );

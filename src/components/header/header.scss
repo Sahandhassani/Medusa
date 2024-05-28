@@ -13,7 +13,7 @@
         z-index: 1000000;
         margin-top: 0.33%;
         height: 33px;
-        width: 33%;
+        width: 40%;
         display: flex;
         flex-direction: row;
         align-items: center;
@@ -112,7 +112,7 @@
     &__profile{
         position: fixed;
         background: linear-gradient(270deg, #5d5d5d, #222222);
-        opacity: 0.8;
+        opacity: 1;
         z-index: 1000;
         display: flex;
         align-items: center;
@@ -291,3 +291,67 @@
     top: 0;
 }
 
+@media (max-width:700px){
+    .header {
+        &__menu{
+            height: 29px;
+            width: 43%;
+            &__api{
+                width: 33%;
+                height: 90%;
+                opacity: 0.8;
+                font-size: 18px;
+                box-shadow: 0px 0px 10px 3px rgba($color: rgb(255, 253, 245) , $alpha: 0.4);
+                transition: height 300ms  cubic-bezier(.03,.72,.44,.6) 100ms;
+                &:hover{
+                    transition: height 300ms  cubic-bezier(.03,.72,.44,.6) 100ms;
+                    height: 110%;
+                }
+            }
+    
+            &__invest{
+                width: 33%;
+                height: 90%;
+                opacity: 0.8;
+                font-size: 18px;
+                box-shadow: 0px 0px 10px 3px rgba($color: rgb(255, 253, 245) , $alpha: 0.4);
+                transition: height 300ms  cubic-bezier(.03,.72,.44,.6) 100ms;
+                &:hover{
+                    transition: height 300ms  cubic-bezier(.03,.72,.44,.6) 100ms;
+                    height: 110%;
+                }
+            }
+            &__dev{
+                width: 33%;
+                height: 90%;
+                opacity: 0.8;
+                font-size: 18px;
+                box-shadow: 0px 0px 10px 3px rgba($color: rgb(255, 253, 245) , $alpha: 0.4);
+                transition: height 300ms  cubic-bezier(.03,.72,.44,.6) 100ms;
+                &:hover{
+                    transition: height 300ms  cubic-bezier(.03,.72,.44,.6) 100ms;
+                    height: 110%;
+                }
+            }
+            &__home{
+                position: fixed;
+                background: linear-gradient(270deg, #5d5d5d, #222222);
+                opacity: 0.8;
+                z-index: 1000;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                top: 10px;
+                left: 10px;
+                height: 33px;
+                width: 33px;
+                border-radius: 20px 20px 20px 20px;
+                cursor: pointer;
+                font-size: 18px;
+                text-decoration: none;
+                color: gray;
+                box-shadow: 0px 0px 10px 3px rgba($color: rgb(255, 255, 255) , $alpha: 0.4);
+            }    
+        }
+    }
+}

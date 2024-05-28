@@ -1,6 +1,5 @@
 import React from "react";
 import './home.scss';
-import imgheader from "../../../img/diagram.png";
 import icon from "../../../img/icon.jpeg";
 import result1 from "../../../img/result1.jpeg";
 import result2 from "../../../img/result2.jpeg";
